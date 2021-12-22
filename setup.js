@@ -27,26 +27,26 @@ db.AirlineEmployees.insert({"id": 9, "fullName": "Kelvin Waters", "position": "p
 db.AirlineEmployees.insert({"id": 10, "fullName": "Abraham Whittaker", "position": "maintenance staff", "annualSalary": 40000, "address": {"postcode": "W10 4JL", "streetName": "Third Avenue", "houseNo": 45, "city": "London"}, "contactInfo": {"email": "t.whittaker@gpairline.com", "mobileNo": "078 8612 3517"}});
 
 //create JourneyBooking collection
-db.JourneyBooking.insert({"id": 1, "timeOfBooking": new Date("2021-03-12T13:36:46Z"), "payingPassenger": "Jerome Kithinji", "addtlPassenger": 4, "flightsUsed": [5,8],"bookingPrice": 30000 });
-db.JourneyBooking.insert({"id": 2, "timeOfBooking": new Date("2021-04-29T23:47:24Z"), "payingPassenger": "Jack Mach", "addtlPassenger": 1, "flightsUsed": [4]},"bookingPrice": );
-db.JourneyBooking.insert({"id": 3, "timeOfBooking": new Date("2021-05-27T08:14:25Z"), "payingPassenger": "Rolly Beya", "addtlPassenger": 2, "flightsUsed": [9,10],"bookingPrice": });
-db.JourneyBooking.insert({"id": 4, "timeOfBooking": new Date("2021-06-23T12:36:36Z"), "payingPassenger": "Nathan Flowers", "addtlPassenger": 3, "flightsUsed": [2],"bookingPrice": });
-db.JourneyBooking.insert({"id": 5, "timeOfBooking": new Date("2021-07-15T15:46:13Z"), "payingPassenger": "Shaan Shafiq", "addtlPassenger": 1, "flightsUsed": [6],"bookingPrice": });
-db.JourneyBooking.insert({"id": 6, "timeOfBooking": new Date("2021-08-21T18:23:12Z"), "payingPassenger": "Luciana Alioto", "addtlPassenger": 2, "flightsUsed": [7],"bookingPrice": });
-db.JourneyBooking.insert({"id": 7, "timeOfBooking": new Date("2021-09-28T20:15:24Z"), "payingPassenger": "Claudia Alioto", "addtlPassenger": 3, "flightsUsed": [3],"bookingPrice": 6000});
-db.JourneyBooking.insert({"id": 8, "timeOfBooking": new Date("2021-10-13T21:16:46Z"), "payingPassenger": "Arthur Lerev", "addtlPassenger": 1, "flightsUsed": [1],"bookingPrice": });
+db.JourneyBooking.insert({"id": 1, "timeOfBooking": new Date("2020-12-24T13:36:46Z"), "payingPassenger": "Jerome Kithinji", "addtlPassenger": 4, "flightsUsed": [5,8],"bookingPrice": 30000 });
+db.JourneyBooking.insert({"id": 2, "timeOfBooking": new Date("2020-12-02T23:47:24Z"), "payingPassenger": "Jack Mach", "addtlPassenger": 1, "flightsUsed": [4]},"bookingPrice": 1500);
+db.JourneyBooking.insert({"id": 3, "timeOfBooking": new Date("2020-12-04T08:14:25Z"), "payingPassenger": "Rolly Beya", "addtlPassenger": 2, "flightsUsed": [9,10],"bookingPrice": 15000});
+db.JourneyBooking.insert({"id": 4, "timeOfBooking": new Date("2020-12-16T12:36:36Z"), "payingPassenger": "Nathan Flowers", "addtlPassenger": 3, "flightsUsed": [2],"bookingPrice": 17000});
+db.JourneyBooking.insert({"id": 5, "timeOfBooking": new Date("2020-12-16T15:46:13Z"), "payingPassenger": "Shaan Shafiq", "addtlPassenger": 1, "flightsUsed": [6],"bookingPrice": 3000});
+db.JourneyBooking.insert({"id": 6, "timeOfBooking": new Date("2020-12-08T18:23:12Z"), "payingPassenger": "Luciana Alioto", "addtlPassenger": 2, "flightsUsed": [7],"bookingPrice": 4000});
+db.JourneyBooking.insert({"id": 7, "timeOfBooking": new Date("2020-12-09T20:15:24Z"), "payingPassenger": "Claudia Alioto", "addtlPassenger": 3, "flightsUsed": [3],"bookingPrice": 3000});
+db.JourneyBooking.insert({"id": 8, "timeOfBooking": new Date("2020-12-13T21:16:46Z"), "payingPassenger": "Arthur Lerev", "addtlPassenger": 1, "flightsUsed": [1],"bookingPrice": 2000});
 
 //create Airports collection  
-db.Airports.insert({"id": 1, "airportName": "Heathrow Airport", "airportLocation": "London", "airportCost": {"parkPrice": 300.30, "refuelPrice": 2500.30}});
-db.Airports.insert({"id": 2, "airportName": "Charles de Gaulle Airport", "airportLocation": "Paris", "airportCost": {"parkPrice": 200.60, "refuelPrice": 2200.60}});
-db.Airports.insert({"id": 3, "airportName": "Berlin Brandenburg Airport", "airportLocation": "Berlin", "airportCost": {"parkPrice": 250.20, "refuelPrice": 2300.60}});
-db.Airports.insert({"id": 4, "airportName": "Leonardo da Vinci International Airport", "airportLocation": "Rome", "airportCost": {"parkPrice": 370.20, "refuelPrice": 2000.50}});
-db.Airports.insert({"id": 5, "airportName": "Beijing Daxing International Airport", "airportLocation": "Beijing", "airportCost": {"parkPrice": 290.30, "refuelPrice": 1900.30}});
-db.Airports.insert({"id": 6, "airportName": "Miami International Airport", "airportLocation": "Miami", "airportCost": {"parkPrice": 320.50, "refuelPrice": 2100.90}});
-db.Airports.insert({"id": 7, "airportName": "Sydney Airport", "airportLocation": "Sydney", "airportCost": {"parkPrice": 140.80, "refuelPrice": 2050.60}});
-db.Airports.insert({"id": 8, "airportName": "Narita International Airport", "airportLocation": "Tokyo", "airportCost": {"parkPrice": 230.50, "refuelPrice": 2600.50}});
-db.Airports.insert({"id": 9, "airportName": "Toronto Pearson", "airportLocation": "Toronto", "airportCost": {"parkPrice": 250.50, "refuelPrice": 2800.80}});
-db.Airports.insert({"id": 10, "airportName": "Mexico City International Airport", "airportLocation": "Mexico City", "airportCost": {"parkPrice": 180.30, "refuelPrice": 2700.70}});
+db.Airports.insert({"id": 1, "airportName": "Heathrow Airport", "airportLocation": "London", "airportCost": {"parkPrice": 300.30, "refuelPrice": 250.30}});
+db.Airports.insert({"id": 2, "airportName": "Charles de Gaulle Airport", "airportLocation": "Paris", "airportCost": {"parkPrice": 200.60, "refuelPrice": 220.60}});
+db.Airports.insert({"id": 3, "airportName": "Berlin Brandenburg Airport", "airportLocation": "Berlin", "airportCost": {"parkPrice": 250.20, "refuelPrice": 230.60}});
+db.Airports.insert({"id": 4, "airportName": "Leonardo da Vinci International Airport", "airportLocation": "Rome", "airportCost": {"parkPrice": 370.20, "refuelPrice": 200.50}});
+db.Airports.insert({"id": 5, "airportName": "Beijing Daxing International Airport", "airportLocation": "Beijing", "airportCost": {"parkPrice": 290.30, "refuelPrice": 190.30}});
+db.Airports.insert({"id": 6, "airportName": "Miami International Airport", "airportLocation": "Miami", "airportCost": {"parkPrice": 320.50, "refuelPrice": 210.90}});
+db.Airports.insert({"id": 7, "airportName": "Sydney Airport", "airportLocation": "Sydney", "airportCost": {"parkPrice": 140.80, "refuelPrice": 205.60}});
+db.Airports.insert({"id": 8, "airportName": "Narita International Airport", "airportLocation": "Tokyo", "airportCost": {"parkPrice": 230.50, "refuelPrice": 260.50}});
+db.Airports.insert({"id": 9, "airportName": "Toronto Pearson", "airportLocation": "Toronto", "airportCost": {"parkPrice": 250.50, "refuelPrice": 280.80}});
+db.Airports.insert({"id": 10, "airportName": "Mexico City International Airport", "airportLocation": "Mexico City", "airportCost": {"parkPrice": 180.30, "refuelPrice": 270.70}});
 
 //create PlaneFlights collection
 db.PlaneFlights.insert({"id": 1, "planeId": 4, "time": {"depTime": new Date("2022-12-22T21:45:00Z"), "arrivTime": new Date("2022-12-23T00:00:00Z")}, "startAirport": 4, "destAirport": 1, "flightPilots": {"pilot": 4, "co-pilot": 6}, "flightDistance": 1433.09})
